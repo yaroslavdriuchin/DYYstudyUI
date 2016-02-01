@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0881671C5B7DD300A7D6C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0881661C5B7DD300A7D6C7 /* main.m */; };
+		5C08816A1C5B7DD300A7D6C7 /* DYYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0881691C5B7DD300A7D6C7 /* DYYAppDelegate.m */; };
+		5C0881721C5B7DD300A7D6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0881711C5B7DD300A7D6C7 /* Assets.xcassets */; };
+		5C0881751C5B7DD300A7D6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0881731C5B7DD300A7D6C7 /* LaunchScreen.storyboard */; };
+		5CC7763B1C5B8DF80099589A /* DYYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC776391C5B8DF80099589A /* DYYViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5CC7763C1C5B8DF80099589A /* DYYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC7763A1C5B8DF80099589A /* DYYViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		5CC7763E1C5BB7A20099589A /* DYYView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC7763D1C5BB7A20099589A /* DYYView.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C0881621C5B7DD300A7D6C7 /* DYYstudyUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYYstudyUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0881661C5B7DD300A7D6C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C0881681C5B7DD300A7D6C7 /* DYYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYYAppDelegate.h; sourceTree = "<group>"; };
+		5C0881691C5B7DD300A7D6C7 /* DYYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYYAppDelegate.m; sourceTree = "<group>"; };
+		5C0881711C5B7DD300A7D6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C0881741C5B7DD300A7D6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C0881761C5B7DD300A7D6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC776381C5B8DF80099589A /* DYYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYYViewController.h; sourceTree = "<group>"; };
+		5CC776391C5B8DF80099589A /* DYYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYYViewController.m; sourceTree = "<group>"; };
+		5CC7763A1C5B8DF80099589A /* DYYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYYViewController.xib; sourceTree = "<group>"; };
+		5CC7763D1C5BB7A20099589A /* DYYView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DYYView.xib; path = Resources/DYYView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C08815F1C5B7DD300A7D6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0881591C5B7DD300A7D6C7 = {
+			isa = PBXGroup;
+			children = (
+				5C0881641C5B7DD300A7D6C7 /* DYYstudyUI */,
+				5C0881631C5B7DD300A7D6C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C0881631C5B7DD300A7D6C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C0881621C5B7DD300A7D6C7 /* DYYstudyUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C0881641C5B7DD300A7D6C7 /* DYYstudyUI */ = {
+			isa = PBXGroup;
+			children = (
+				5CC776371C5B8C430099589A /* Resources */,
+				5C0881681C5B7DD300A7D6C7 /* DYYAppDelegate.h */,
+				5C0881691C5B7DD300A7D6C7 /* DYYAppDelegate.m */,
+				5CC776341C5B8B860099589A /* DYYViewController */,
+				5C0881711C5B7DD300A7D6C7 /* Assets.xcassets */,
+				5C0881731C5B7DD300A7D6C7 /* LaunchScreen.storyboard */,
+				5C0881761C5B7DD300A7D6C7 /* Info.plist */,
+				5C0881651C5B7DD300A7D6C7 /* Supporting Files */,
+			);
+			path = DYYstudyUI;
+			sourceTree = "<group>";
+		};
+		5C0881651C5B7DD300A7D6C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0881661C5B7DD300A7D6C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC776341C5B8B860099589A /* DYYViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CC776381C5B8DF80099589A /* DYYViewController.h */,
+				5CC776391C5B8DF80099589A /* DYYViewController.m */,
+				5CC7763A1C5B8DF80099589A /* DYYViewController.xib */,
+			);
+			name = DYYViewController;
+			sourceTree = "<group>";
+		};
+		5CC776371C5B8C430099589A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CC7763D1C5BB7A20099589A /* DYYView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C0881611C5B7DD300A7D6C7 /* DYYstudyUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0881791C5B7DD300A7D6C7 /* Build configuration list for PBXNativeTarget "DYYstudyUI" */;
+			buildPhases = (
+				5C08815E1C5B7DD300A7D6C7 /* Sources */,
+				5C08815F1C5B7DD300A7D6C7 /* Frameworks */,
+				5C0881601C5B7DD300A7D6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYYstudyUI;
+			productName = DYYstudyUI;
+			productReference = 5C0881621C5B7DD300A7D6C7 /* DYYstudyUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C08815A1C5B7DD300A7D6C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DYY;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yaroslav Driuchin";
+				TargetAttributes = {
+					5C0881611C5B7DD300A7D6C7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C08815D1C5B7DD300A7D6C7 /* Build configuration list for PBXProject "DYYstudyUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C0881591C5B7DD300A7D6C7;
+			productRefGroup = 5C0881631C5B7DD300A7D6C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C0881611C5B7DD300A7D6C7 /* DYYstudyUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0881601C5B7DD300A7D6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0881751C5B7DD300A7D6C7 /* LaunchScreen.storyboard in Resources */,
+				5CC7763E1C5BB7A20099589A /* DYYView.xib in Resources */,
+				5C0881721C5B7DD300A7D6C7 /* Assets.xcassets in Resources */,
+				5CC7763C1C5B8DF80099589A /* DYYViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C08815E1C5B7DD300A7D6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C08816A1C5B7DD300A7D6C7 /* DYYAppDelegate.m in Sources */,
+				5C0881671C5B7DD300A7D6C7 /* main.m in Sources */,
+				5CC7763B1C5B8DF80099589A /* DYYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C0881731C5B7DD300A7D6C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0881741C5B7DD300A7D6C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C0881771C5B7DD300A7D6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C0881781C5B7DD300A7D6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C08817A1C5B7DD300A7D6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYYstudyUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DYY.DYYstudyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C08817B1C5B7DD300A7D6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYYstudyUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DYY.DYYstudyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C08815D1C5B7DD300A7D6C7 /* Build configuration list for PBXProject "DYYstudyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0881771C5B7DD300A7D6C7 /* Debug */,
+				5C0881781C5B7DD300A7D6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0881791C5B7DD300A7D6C7 /* Build configuration list for PBXNativeTarget "DYYstudyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C08817A1C5B7DD300A7D6C7 /* Debug */,
+				5C08817B1C5B7DD300A7D6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C08815A1C5B7DD300A7D6C7 /* Project object */;
+}
